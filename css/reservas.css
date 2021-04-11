@@ -1,0 +1,40 @@
+#divPalco img, .subtitles img{
+    width: 3rem; 
+    transform: rotate(180deg);
+}
+
+#divPalco{
+   
+    display: grid; 
+    grid-template-columns: repeat(25, 1fr);
+    grid-template-rows: repeat(12, 1fr) ;
+    align-items: center;
+    gap: auto;
+    margin: 1rem;
+}
+
+.bg-primary {
+    margin: auto auto 30px;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.buttonreservar{
+    margin-top: 1rem;
+}
+
+.imgProg{
+    width: 80px;
+    height: 1fr;
+    background-color: red;
+    
+    
+}
+
+.container-fluid{
+    background-color: #f3f3f3;
+   
+
+
+}

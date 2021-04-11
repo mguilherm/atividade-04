@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="./css/reservas.css" />
+        <title>Exemplo 10.2</title>
+    </head>
+
+    <body>
+        <div class="container-fluid">
+            
+                <div class="col-sm-9">
+                    <h1>Teatro: Show Musical - Reserva de Poltronas</h1>
+
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <p>
+                                <label for="inPoltrona">Nº da Poltrona:</label>
+                                <input
+                                    type="text"
+                                    class="form-control aDireita"
+                                    id="inPoltrona"
+                                    autofocus
+                                />
+                            </p>
+                        </div>
+                        <div class="col-sm-4 buttonreservar">
+                            <input
+                                type="button"
+                                class="btn btn-primary margemSup"
+                                value="Reservar"
+                                id="btReservar"
+                            />
+                            <input
+                                type="button"
+                                class="btn btn-danger margemSup"
+                                value="Confirmar Reserva"
+                                id="btConfirmar"
+                            />
+                        </div>
+                        <div class="col-sm-6">
+                            <p>Legenda:</p>
+                            <p class="subtitles">
+                                <img src="./img/reservas/poltrona-green.svg" />
+                                Disponível
+                                <img
+                                    src="./img/reservas/poltrona-gray.svg"
+                                    class="margemEsq"
+                                />
+                                Reservada
+                                <img
+                                    src="./img/reservas/poltrona-red.svg"
+                                    class="margemEsq"
+                                />
+                                Ocupada
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <p class="col-sm-12 bg-primary text-white text-center" >
+                            Palco do Teatro
+                        </p>
+                        <div class="col-sm-12 text-center" id="divPalco">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./js/reservas.js"></script>
+    </body>
+</html>
