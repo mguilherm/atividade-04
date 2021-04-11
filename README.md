@@ -9,4 +9,4 @@
 <li>To Do lista</li>
 <br>
 <h4> O arquivo pode ser acessado no link: </h4>
-<a> https://mguilherm.github.io/atividade-04/<a>
+<link> https://mguilherm.github.io/atividade-04/<link>
