@@ -7,6 +7,6 @@
 <li>Aposta em Cavalos</li>
 <li>Marcação cadeiras no Teatro</li>
 <li>To Do lista</li>
-
-<p> O arquivo pode ser acessado no link: </p>
+<br>
+## O arquivo pode ser acessado no link:
 <a> https://mguilherm.github.io/atividade-04/<a>
